@@ -1,26 +1,101 @@
-  h1 {
-    background-color: #6C0FFFF5;
-    color:#ECECEC;
-  }
-  a {
-    color:#0C5819 ;
-  }
-  body{
-    background-color:#C3EBF1
-  }
-  
-  /* mengubah div menjadi tampilan kartu */
-  div{
-    background-color: #159FE2;
-    width: 280px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-    text-align: center;
-  }
-  
-  div img {
-   border-radius: 50%; 
-   border: 6px solid #FFFDFD;
-  }
+h1 {
+  background-color: #AFAFAF;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF
+}
+
+body {
+  background-color: #12F3D8
+}
+
+
+div.kartu-profil {
+  background-color: #858585;
+  width: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+div.kartu-profil img {
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+}
+
+.navigasi {
+  background-color: #CDCDCD;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navigasi a {
+  text-decoration: none;
+}
+
+.navigasi .aktif {
+  font-weight: bold;
+  color: #000000;
+}
+
+div.kartu-kontak {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
+  /* rata Tengah horizonal */
+  padding: 10px;
+  border-radius: 10px;
+  /*sudut kotak tumpul */
+  text-align: center;
+}
+
+.tombol-medsos {
+  /* agar tombol melebar satu baris penuh*/
+  display: block;
+  padding: 10px;
+  /* teks rata Tengah */
+  text-align: center;
+  text-decoration: none;
+  margin: 8px;
+  border-radius: 12px;
+}
+
+.wa {
+  background-color: #4AFF83;
+}
+
+.github {
+  background-color: #333333;
+}
+
+.galeri-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* item galeri */
+.galeri-item {
+  width: 50%;
+  max-width: 100px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.galeri-item img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.galeri-item p {
+  padding: 0px;
+  line-height: 0.7;
+}
